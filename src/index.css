@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    .drop {
+        filter: drop-shadow(); 
+    }
+
+}
+
+@layer components {
+    .ffff {
+        @apply bg-clip-text bg-[linear-gradient(to_right,#09f1b8,#00a2ff,#ff00d2,#fed90f)] text-[100px];
+        -webkit-text-stroke: transparent 6px;
+      }
+}
+
+
+
+.active {
+    color: #19191c;
+    border-bottom: 4px solid #19191c;
+}
+
